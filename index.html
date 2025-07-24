@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tic-tac-toe</title>
+    <script src="./script.js" defer></script>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <h1>Tic Tac Toe</h1>
+    <dialog>
+        <form action="dialog">
+            <div>
+                <label for="player1">Enter name of Player 1:</label>
+                <input type="text" id="player1" required name="player1">
+                <label for="player2">Enter name of Player 1:</label>
+                <input type="text" id="player2" required name="player2">
+                <button type="submit">Submit</button>
+            </div>
+        </form>
+    </dialog>
+    <div class="con">
+        <button class="change">Change Name</button>
+        <button class="reset">Reset</button>
+    </div>
+    <h1 id="turn"></h1>
+    <div class="container"></div>
+</body>
+</html>

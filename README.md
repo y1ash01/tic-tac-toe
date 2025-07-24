@@ -1,1 +1,1 @@
-# tic-tac-toe
+# tic-tac-toe part of Odin Project

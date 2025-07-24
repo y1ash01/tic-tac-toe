@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding:0;
+}
+
+html,body{
+    height: 100%;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: x-large;
+    background-color: rgb(128, 128, 128,0.4);
+}
+
+h1{
+    text-align: center;
+    margin:20px;
+}
+
+.container{
+    background-color: black;
+    border-radius: 20px;
+    border:10px solid black;
+    color: white;
+    height: 600px;
+    width: 600px;
+    justify-self: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap:10px;
+}
+
+.box{
+    background-color: white;
+    color:black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 80px;
+    padding:20px;
+}
+
+button{
+    margin:10px auto;
+    height: 80px;
+    width:160px;
+    border-radius: 15px;
+    font-size: xx-large;
+}
+
+.con{
+    display: flex;
+    justify-content: center;
+}
+
+form>div{
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+
+}
+
+dialog{
+    border-radius: 10px;
+    justify-self: center;
+    padding:20px;
+}
